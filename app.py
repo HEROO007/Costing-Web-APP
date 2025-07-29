@@ -4,7 +4,7 @@ try:
     import sqlite3
     import sys
 except ModuleNotFoundError as e:
-    st.error(f"Missing module: {e.name}. Please install it using 'pip install {e.name}'.")
+    print(f"Missing module: {e.name}. Please install it using 'pip install {e.name}'.")
     sys.exit(1)
 
 # Title of the app
